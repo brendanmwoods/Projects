@@ -82,6 +82,9 @@ public class Persona {
 		this.platform = platform;
 	}
 	
+	/**
+	 * Print the details for the Persona to the console. 
+	 */
 	public void printInfo(){
 		System.out.println(id);
 		System.out.println(playerId);
